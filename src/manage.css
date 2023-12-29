@@ -1,0 +1,78 @@
+body {
+    position: relative;
+    background: url("parking0.avif") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.content {
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.content form {
+    margin-top: 10px;
+}
+
+.content label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.content input[type="text"],
+.content input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 2px solid #919191;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.content select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.content button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.content button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.content img {
+    width: 100%;
+}
+
+.content form {
+    position: static;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.image{
+
+    margin-bottom: 20px;
+}

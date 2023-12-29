@@ -1,0 +1,35 @@
+.content {
+       
+    width: 600px;
+}
+
+.content h1 {
+    color: #333;
+}
+
+.content form {
+    margin-top: 10px;
+}
+
+.content label {
+    font-weight: bold;
+}
+
+.content input[type="text"],
+.content input[type="password"] {
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0;
+    border-radius: 7px;
+}
+
+.content button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 30px;
+}

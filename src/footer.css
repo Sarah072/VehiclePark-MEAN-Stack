@@ -1,0 +1,37 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    background-color: #333; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+nav{
+    display:flex;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+   
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.home{
+    margin-left: 1170px;
+
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
