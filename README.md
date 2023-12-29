@@ -1,70 +1,13 @@
-# Getting Started with Create React App
+The Vehicle Park application will encompass user authentication, vehicle registration, vehicle search, seeing the list, reporting, and administration. It will be developed using the MEAN stack (MongoDB, Express.js, Angular, and Node.js). The application allows users to register their vehicles conveniently by taking the picture of their car’s number plate and, providing essential details like vehicle name, vehicle model, vehicle make, and vehicle variant. This registration process simplifies the tracking and management of vehicles within the facility. Registered users can log in securely to access the application's features, ensuring that only authorized individuals can interact with the system. It will provide a powerful search feature that enables users to quickly find registered vehicles based on vehicle names. This feature enhances efficiency when searching for specific vehicles within the parking area. The application offers reporting capabilities, allowing admins to see daily, weekly, and monthly reports detailing vehicle entry and exit times. These reports aid in monitoring and analysis, helping facility administrators make informed decisions. For administrators, the application includes user management features that facilitate the creation, modification, and deletion of user accounts. This enables precise control over user access and permissions. Administrators can manage vehicle records, including their creation, modification, and deletion, can see the list of vehicles in his parking area. This feature ensures that vehicle data is kept up-to-date and accurate. The Vehicle Park application is designed to cater to the unique needs of different parking areas, each managed by its own administrator. Upon registration, administrators specify their respective parking area numbers, facilitating a seamless and personalized experience. Administrators can then manage all the record of their own parking area.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To install dependencies:
+1) Go to the project root directory.
+2) Run: npm install
 
-## Available Scripts
+To run Server:
+1) Navigate to Server directory by cd Server
+2) Run: node app.js
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To run Client side:
+1) Go to the project root directory.
+2) Run: npm start 
